@@ -27,7 +27,7 @@ var EmojifyPlugin = require('emojify-webpack-plugin');
 ```
 
 ## Example
-A `manifest.json` file from a random project built using the emojify plugin.
+A `manifest.js` file from a random project built using the emojify plugin.
 
 ```js
 eval((function unpack(n,e){var t=0,r="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".split("");return n=n.replace(/../g,function(n){var o=e.findIndex(function(e){return e===n}),u=r[(o-t)%r.length];return t=(t+3)%(e.length-r.length),u}),"undefined"!=typeof atob?decodeURIComponent(escape(atob(n))):new Buffer(n,"base64").toString("utf-8")})(
