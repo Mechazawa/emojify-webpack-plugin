@@ -1,9 +1,9 @@
 {
   "name": "emojify-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn your code into emoji",
   "author": "Mechazawa <mega@ioexception.at>",
-  "license": "MIT",
+  "license": "Unlicense",
   "main": "dist/cjs.js",
   "files": [
     "dist"
