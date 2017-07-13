@@ -1,5 +1,5 @@
 # emojify-webpack-plugin
-
+This plugin will transform your code into emoji ready to be shipped to production. It's as simple as that. 
 
 ## Installation
 Installation can be done through yarn or npm
