@@ -1,4 +1,4 @@
-# emojify-webpack-plugin
+# emojify-webpack-plugin [![npm version](https://img.shields.io/npm/v/emojify-webpack-plugin.svg)](https://www.npmjs.com/package/emojify-webpack-plugin)
 This plugin will transform your code into emoji ready to be shipped to production. It's as simple as that. 
 
 ## Installation
