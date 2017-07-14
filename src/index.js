@@ -1,4 +1,3 @@
-import {SourceMapConsumer} from 'source-map';
 import {RawSource} from 'webpack-sources';
 import ModuleFilenameHelpers from 'webpack/lib/ModuleFilenameHelpers';
 import * as emoji from './emoji';
