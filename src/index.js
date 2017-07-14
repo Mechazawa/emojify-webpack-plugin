@@ -15,6 +15,10 @@ export default class EmojifyPlugin {
     this.options.test = this.options.test || /\.js($|\?)/i;
   }
 
+  prepareFunction(func) {
+    return minify(func.toString(), {mangle:true}).code.replace(/function(\s\w{2,})/g, 'function')
+  }
+
   apply(compiler) {
     compiler.plugin('compilation', (compilation) => {
 
@@ -33,8 +37,8 @@ export default class EmojifyPlugin {
             let source = asset.source();
 
             source = emoji.pack(source, emoji.generateEmoji());
-            const unpacker = minify(emoji.unpack.toString(), {mangle:true}).code;
-            const generator = minify(emoji.generateEmoji.toString(), {mangle:true}).code;
+            const unpacker = this.prepareFunction(emoji.unpack);
+            const generator = this.prepareFunction(emoji.generateEmoji);
 
             source = `eval((${unpacker})(\n"${source}",\n(${generator})()))`;
 
