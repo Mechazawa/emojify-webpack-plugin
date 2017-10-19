@@ -1,5 +1,4 @@
 # emojify-webpack-plugin [![npm version](https://img.shields.io/npm/v/emojify-webpack-plugin.svg)](https://www.npmjs.com/package/emojify-webpack-plugin)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMechazawa%2Femojify-webpack-plugin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMechazawa%2Femojify-webpack-plugin?ref=badge_shield)
 This plugin will transform your code into emoji ready to be shipped to production. It's as simple as that. 
 
 ## Installation
