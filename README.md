@@ -1,4 +1,4 @@
-# emojify-webpack-plugin [![npm version](https://img.shields.io/npm/v/emojify-webpack-plugin.svg)](https://www.npmjs.com/package/emojify-webpack-plugin)
+# 🦄 emojify-webpack-plugin [![npm version](https://img.shields.io/npm/v/emojify-webpack-plugin.svg)](https://www.npmjs.com/package/emojify-webpack-plugin)
 This plugin will transform your code into emoji ready to be shipped to production. It's as simple as that. 
 
 ## Installation
@@ -36,7 +36,7 @@ eval((function(n,e){var t=0,r="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvw
 ```
 
 # WHY!?
-![](https://i.kinja-img.com/gawker-media/image/upload/s--s63D65iO--/c_scale,f_auto,fl_progressive,q_80,w_800/fio6nkh9rdtmio81zt9i.png)
+![For the glory of satan, of course](https://shodan.me/stuff/for_the_glory_of_satan.png)
 
 
 ## License
